@@ -1,4 +1,0 @@
-for page_num, page in enumerate(pdf_doc, start=1):
-    # Obter texto de cada página
-    text = page.get_text("text")
-    # Adicione o processamento aqui
