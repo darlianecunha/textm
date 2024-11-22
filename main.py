@@ -90,3 +90,6 @@ else:
         st.warning("Por favor, carregue um arquivo PDF.")
     if not palavras:
         st.warning("Por favor, insira até 3 palavras para busca.")
+
+        # Adicionar a fonte e o crédito ao final da aplicação
+st.markdown("<p><strong>Ferramenta desenvolvida por Darliane Cunha.</strong></p>", unsafe_allow_html=True)
