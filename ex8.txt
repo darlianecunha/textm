@@ -1,1 +1,0 @@
-st.set_option('server.maxUploadSize', 200)  # Em MB
