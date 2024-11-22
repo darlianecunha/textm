@@ -1,3 +1,0 @@
-git add .streamlit/config.toml
-git commit -m "Configuração do tamanho máximo de upload para Streamlit"
-git push
