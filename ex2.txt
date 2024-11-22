@@ -1,5 +1,1 @@
-streamlit run app.py
-
-
-
-
+pip install streamlit pymupdf pandas python-docx openpyxl

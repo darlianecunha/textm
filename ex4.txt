@@ -1,4 +1,1 @@
-python -m venv env
-source env/bin/activate  # Linux/Mac
-env\Scripts\activate     # Windows
-pip install streamlit pymupdf pandas python-docx openpyxl
+streamlit run app.py
