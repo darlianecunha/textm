@@ -1,3 +1,0 @@
-for page_num, page in enumerate(pdf_doc.pages[:50]):  # Limita a 50 páginas
-    text = page.get_text("text")
-    # Processar texto...
