@@ -1,0 +1,12 @@
+from PyPDF2 import PdfReader, PdfWriter
+
+def dividir_pdf(input_path, output_dir, paginas_por_arquivo=50):
+    reader = PdfReader(input_path)
+    for i in range(0, len(reader.pages), paginas_por_arquivo):
+        writer = PdfWriter()
+        writer.add_pages(reader.pages[i:i + paginas_por_arquivo])
+        with open(f"{output_dir}/parte_{i // paginas_por_arquivo + 1}.pdf", "wb") as output_pdf:
+            writer.write(output_pdf)
+
+# Exemplo de uso
+dividir_pdf("arquivo_grande.pdf", "saidas", paginas_por_arquivo=50)
