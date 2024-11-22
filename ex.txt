@@ -1,4 +1,0 @@
-pip install streamlit pymupdf pandas python-docx openpyxl
-
-
-
