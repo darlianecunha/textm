@@ -1,3 +1,0 @@
-git add .streamlit/config.toml
-git commit -m "Adiciona configuração de limite de upload para Streamlit"
-git push
